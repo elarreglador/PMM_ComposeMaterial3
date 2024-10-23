@@ -48,7 +48,7 @@ fun ReplySearchBar(modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxWidth()
             .padding(16.dp)
-            .background(MaterialTheme.colorScheme.background),
+            .background(MaterialTheme.colorScheme.inversePrimary),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Icon(
